@@ -2,8 +2,16 @@
 name = "l1_solver"
 version = "0.1.0"
 edition = "2021"
+authors = [ "Marc Haubenstock <marc.dhaubenstock@gmail.com>" ]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "This is a rust port of the l1 norm approximation found in the l1 magic software package."
+repository = "https://github.com/geoeo/l1_solver"
+readme = "README.md"
+categories = [ "science", "mathematics" ]
+keywords = [ "linear", "algebra", "matrix", "vector", "math","convex","optimization","l1" ]
+license = "BSD-3-Clause"
+exclude = [ "data/*"]
+
 
 [dependencies]
 nalgebra = {version="*"}
