@@ -10,7 +10,7 @@ readme = "README.md"
 categories = [ "science", "mathematics" ]
 keywords = [ "linear", "algebra", "matrix", "vector", "math","convex","optimization","l1" ]
 license = "BSD-3-Clause"
-exclude = [ "data/*"]
+exclude = [ "data/*", "examples/*"]
 
 
 [dependencies]
