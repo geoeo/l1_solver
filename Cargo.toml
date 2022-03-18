@@ -14,4 +14,4 @@ exclude = [ "data/*", "examples/*"]
 
 
 [dependencies]
-nalgebra = {version="*"}
+nalgebra = {version="0.30.1"}
