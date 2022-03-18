@@ -88,7 +88,7 @@ pub fn l1_norm_approx(measurements: &DVector<Float>, A: &DMatrix<Float>,  x: &mu
         dual_residuals.rows_mut(0,N+M).copy_from(&res_dual);
         dual_residuals.rows_mut(N+M,2*M).copy_from(&res_center);
 
-        println!("Iterations: {}, tau = {} Primal = {}, PDGap = {}, Dual res = {}", iter,tau, c.sum(), eta,dual_residuals.norm());
+        //println!("Iterations: {}, tau = {} Primal = {}, PDGap = {}, Dual res = {}", iter,tau, c.sum(), eta,dual_residuals.norm());
         iter+= 1;
     }
 
