@@ -1,0 +1,11 @@
+# Created by Octave 5.2.0, Fri Feb 04 21:35:02 2022 CET <marc@DESKTOP-JV68U8A>
+# name: x0
+# type: matrix
+# rows: 4
+# columns: 1
+ 0.08851507615022905
+ -0.4960881510611686
+ 0.72561188477513894
+ -0.026100975969046994
+
+
