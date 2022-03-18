@@ -8,7 +8,7 @@ description = "This is a rust port of the l1 norm approximation found in the l1 
 repository = "https://github.com/geoeo/l1_solver"
 readme = "README.md"
 categories = [ "science", "mathematics" ]
-keywords = [ "linear", "algebra", "matrix", "vector", "math","convex","optimization","l1" ]
+keywords = [ "algebra", "math","convex","optimization","l1" ]
 license = "BSD-3-Clause"
 exclude = [ "data/*", "examples/*"]
 
